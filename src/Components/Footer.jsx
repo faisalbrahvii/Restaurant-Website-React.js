@@ -1,14 +1,13 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
   return (
-    <div className='h-25'>
-     <footer class="text-center py-4 bg-gray-800 text-white">
-     &copy; 2024 Food Restaurant . All rights reserved.
-     </footer>
+    <footer className='bg-gray-800 text-white py-6 mt-10'>
+      <div className='max-w-[1640px] mx-auto px-4 text-center text-sm sm:text-base'>
+        &copy; {new Date().getFullYear()} <span className='font-semibold'>Food Restaurant</span>. All rights reserved.
+      </div>
+    </footer>
+  );
+};
 
-    </div>
-  )
-}
-
-export default Footer
+export default Footer;
